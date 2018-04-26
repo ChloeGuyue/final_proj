@@ -15,11 +15,17 @@ public class GuitarString {
     }
 
     public void pluck() {
+        while (!buffer.isEmpty()) {
+            buffer.dequeue();
+        }
 
+        while (!buffer.isFull()) {
+            buffer.enqueue(Math.random() - 0.5);
+        }
     }
 
     public void tic() {
-
+        buffer.enqueue(((buffer.dequeue() + buffer.peek()) / 2.0) * DECAY);
     }
 
     public double sample() {

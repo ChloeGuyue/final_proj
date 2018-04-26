@@ -12,4 +12,11 @@ public class TestGuitarString {
         GuitarString gs = new GuitarString(concertA);
         assertEquals(0.0, gs.sample(), 0.001);
     }
+
+    @Test
+    public void testPluck() {
+        GuitarString gs = new GuitarString(11025);
+        gs.pluck();
+    }
+
 } 
