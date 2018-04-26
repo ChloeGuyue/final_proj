@@ -6,5 +6,10 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class TestGuitarString {
-
+    @Test
+    public void testInitiation() {
+        double concertA = 440.0;
+        GuitarString gs = new GuitarString(concertA);
+        assertEquals(0.0, gs.sample(), 0.001);
+    }
 } 

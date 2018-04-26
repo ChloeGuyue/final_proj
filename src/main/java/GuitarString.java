@@ -7,7 +7,11 @@ public class GuitarString {
     private BoundedQueue<Double> buffer;
 
     public GuitarString(double frequency) {
+        buffer = new ArrayRingBuffer<>((int) Math.round(SR / frequency));
 
+        while (!buffer.isFull()) {
+            buffer.enqueue(0.0);
+        }
     }
 
     public void pluck() {
@@ -19,7 +23,7 @@ public class GuitarString {
     }
 
     public double sample() {
-        return 0;
+        return buffer.peek();
     }
 
 }
