@@ -51,4 +51,16 @@ public class TestArrayRingBuffer {
         rb.enqueue(3);
         assertEquals(2, (int) rb.peek());
     }
+
+    @Test
+    public void testIter() {
+        ArrayRingBuffer<Integer> rb = new ArrayRingBuffer(10);
+        rb.enqueue(1);
+        rb.enqueue(2);
+        rb.enqueue(3);
+        for (int i : rb) {
+            System.out.println(i);
+        }
+    }
+
 }
