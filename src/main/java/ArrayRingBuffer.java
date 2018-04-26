@@ -28,14 +28,30 @@ public class ArrayRingBuffer<T> extends AbstractBoundedQueue<T> {
      * Adds x to the end of the ring buffer.
      */
     public void enqueue(T x) {
+        if (isFull()) {
+            throw new RuntimeException("Ring buffer overflow");
+        }
+        rb[last] = x;
 
+        last = (last + 1) % capacity;
+        fillCount += 1;
     }
 
     /**
      * Dequeue oldest item in the ring buffer.
      */
     public T dequeue() {
-        return null;
+        if (isEmpty()) {
+            throw new RuntimeException("Ring buffer underflow");
+        }
+
+        T f = rb[first];
+        rb[first] = null;
+
+        first = (first + 1) % capacity;
+        fillCount -= 1;
+
+        return f;
     }
 
     /**

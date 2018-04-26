@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1a6c3ed-8ea3-4b57-b445-a3c1e07bd272" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/TTFAF.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ArrayRingBuffer$Iter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/TTFAF.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ArrayRingBuffer.class" afterPath="$PROJECT_DIR$/target/classes/ArrayRingBuffer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BoundedQueue.class" afterPath="$PROJECT_DIR$/target/classes/BoundedQueue.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestArrayRingBuffer.class" afterPath="$PROJECT_DIR$/target/test-classes/TestArrayRingBuffer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestGuitarString.class" afterPath="$PROJECT_DIR$/target/test-classes/TestGuitarString.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ArrayRingBuffer.java" afterPath="$PROJECT_DIR$/src/main/java/ArrayRingBuffer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/BoundedQueue.java" afterPath="$PROJECT_DIR$/src/main/java/BoundedQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GuitarHeroLite.java" afterPath="$PROJECT_DIR$/src/main/java/GuitarHeroLite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GuitarString.java" afterPath="$PROJECT_DIR$/src/main/java/GuitarString.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestArrayRingBuffer.java" afterPath="$PROJECT_DIR$/src/test/java/TestArrayRingBuffer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestGuitarString.java" afterPath="$PROJECT_DIR$/src/test/java/TestGuitarString.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,13 +19,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestArrayRingBuffer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestArrayRingBuffer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestArrayRingBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayRingBuffer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ArrayRingBuffer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="60" column="20" lean-forward="false" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+              <folding>
+                <element signature="e#1417#1418#0" expanded="true" />
+                <element signature="e#1444#1445#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,12 +68,12 @@
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/main/java/BoundedQueue.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestArrayRingBuffer2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestArrayRingBuffer.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestGuitarString.java" />
         <option value="$PROJECT_DIR$/src/main/java/GuitarPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/GuitarString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ArrayRingBuffer.java" />
         <option value="$PROJECT_DIR$/src/main/java/GuitarHeroLite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestArrayRingBuffer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ArrayRingBuffer.java" />
       </list>
     </option>
   </component>
@@ -375,14 +379,14 @@
     <history-entry file="TestArrayRingBuffer - 2018.04.26 at 14h 11m 34s.xml">
       <configuration name="TestArrayRingBuffer" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestArrayRingBuffer - 2018.04.26 at 14h 23m 15s.xml">
+      <configuration name="TestArrayRingBuffer" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TestArrayRingBuffer_basicTest - 2018.04.26 at 11h 06m 45s.xml">
       <configuration name="TestArrayRingBuffer.basicTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestArrayRingBuffer_basicTest - 2018.04.26 at 13h 36m 30s.xml">
       <configuration name="TestArrayRingBuffer.basicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGuitarString - 2018.04.26 at 10h 46m 02s.xml">
-      <configuration name="TestGuitarString" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestGuitarString - 2018.04.26 at 11h 06m 33s.xml">
       <configuration name="TestGuitarString" configurationId="JUnit" />
@@ -516,27 +520,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ArrayRingBuffer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestArrayRingBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestArrayRingBuffer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ArrayRingBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="224">
+          <caret line="60" column="20" lean-forward="false" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
           </folding>
         </state>
       </provider>
