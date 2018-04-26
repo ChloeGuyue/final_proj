@@ -1,6 +1,9 @@
 import edu.princeton.cs.algs4.StdAudio;
 
-/** A client that uses the synthesizer package to replicate a plucked guitar string sound */
+/**
+ * Application
+ * A client that uses the synthesizer package to replicate a plucked guitar string sound
+ */
 public class GuitarHeroLite {
     private static final double CONCERT_A = 440.0;    // base case
 
