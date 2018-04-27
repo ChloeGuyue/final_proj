@@ -22,7 +22,6 @@ public class TestGuitarString {
         // capacity of array buffer: 4
         gs.pluck();
         gs.tic();
-
     }
 
     @Test

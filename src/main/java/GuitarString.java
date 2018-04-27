@@ -7,6 +7,7 @@ public class GuitarString {
     private BoundedQueue<Double> buffer;
 
     public GuitarString(double frequency) {
+        // buffer length is dependent on SR and frequency
         buffer = new ArrayRingBuffer<>((int) Math.round(SR / frequency));
 
         while (!buffer.isFull()) {

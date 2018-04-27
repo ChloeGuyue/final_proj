@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1a6c3ed-8ea3-4b57-b445-a3c1e07bd272" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TestHeroLite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GuitarHeroLite.class" afterPath="$PROJECT_DIR$/target/classes/GuitarHeroLite.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GuitarString.class" afterPath="$PROJECT_DIR$/target/classes/GuitarString.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestGuitarString.class" afterPath="$PROJECT_DIR$/target/test-classes/TestGuitarString.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestHeroLite.class" afterPath="$PROJECT_DIR$/target/test-classes/TestHeroLite.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GuitarHeroLite.java" afterPath="$PROJECT_DIR$/src/main/java/GuitarHeroLite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GuitarString.java" afterPath="$PROJECT_DIR$/src/main/java/GuitarString.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestGuitarString.java" afterPath="$PROJECT_DIR$/src/test/java/TestGuitarString.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestHeroLite.java" afterPath="$PROJECT_DIR$/src/test/java/TestHeroLite.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,36 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestArrayRingBuffer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestArrayRingBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestGuitarString.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestGuitarString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestHeroLite.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestHeroLite.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestHeroLite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="150">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,13 +38,27 @@
       <file leaf-file-name="GuitarString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GuitarString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="222">
+              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
               <folding>
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuitarHeroLite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GuitarHeroLite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+              <folding>
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,13 +88,13 @@
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/main/java/BoundedQueue.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestArrayRingBuffer2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GuitarHeroLite.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArrayRingBuffer.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestArrayRingBuffer.java" />
         <option value="$PROJECT_DIR$/src/main/java/GuitarPlayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GuitarString.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestHeroLite.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestGuitarString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GuitarString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GuitarHeroLite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestHeroLite.java" />
       </list>
     </option>
   </component>
@@ -109,9 +106,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="404" />
+    <option name="x" value="263" />
     <option name="y" value="22" />
-    <option name="width" value="857" />
+    <option name="width" value="1006" />
     <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -203,46 +200,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestGuitarString.testSample">
-    <configuration name="TestGuitarString.testPic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestHeroLite">
+    <configuration name="GuitarHeroLite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="final_proj" />
+      <option name="MAIN_CLASS_NAME" value="GuitarHeroLite" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestGuitarString" />
-      <option name="METHOD_NAME" value="testPic" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestGuitarString.testPluck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="final_proj" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestGuitarString" />
-      <option name="METHOD_NAME" value="testPluck" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
       <envs />
-      <patterns />
     </configuration>
     <configuration name="TestGuitarString.testSample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -264,14 +235,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestGuitarString.testTic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGuitarString.testTicImplementation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="final_proj" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestGuitarString" />
-      <option name="METHOD_NAME" value="testTic" />
+      <option name="METHOD_NAME" value="testTicImplementation" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -284,14 +255,34 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestGuitarString.testTicImplementation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHeroLite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="final_proj" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestGuitarString" />
-      <option name="METHOD_NAME" value="testTicImplementation" />
+      <option name="MAIN_CLASS_NAME" value="TestHeroLite" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestHeroLite.testApplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="final_proj" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestHeroLite" />
+      <option name="METHOD_NAME" value="testApplication" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -386,19 +377,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testPluck" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testPic" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testTic" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testTicImplementation" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testSample" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testTicImplementation" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testSample" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GuitarHeroLite" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestHeroLite.testApplication" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestHeroLite" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testSample" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testTicImplementation" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testTic" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testPic" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testPluck" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestHeroLite" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestHeroLite.testApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GuitarHeroLite" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testSample" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testTicImplementation" />
       </list>
     </recent_temporary>
   </component>
@@ -416,9 +407,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestGuitarString - 2018.04.26 at 15h 03m 35s.xml">
-      <configuration name="TestGuitarString" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestGuitarString_testPic - 2018.04.26 at 21h 13m 52s.xml">
       <configuration name="TestGuitarString.testPic" configurationId="JUnit" />
     </history-entry>
@@ -430,9 +418,6 @@
     </history-entry>
     <history-entry file="TestGuitarString_testPic - 2018.04.26 at 21h 26m 11s.xml">
       <configuration name="TestGuitarString.testPic" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGuitarString_testPluck - 2018.04.26 at 15h 53m 59s.xml">
-      <configuration name="TestGuitarString.testPluck" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestGuitarString_testSample - 2018.04.26 at 21h 38m 05s.xml">
       <configuration name="TestGuitarString.testSample" configurationId="JUnit" />
@@ -446,9 +431,15 @@
     <history-entry file="TestGuitarString_testTicImplementation - 2018.04.26 at 21h 30m 05s.xml">
       <configuration name="TestGuitarString.testTicImplementation" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestHeroLite - 2018.04.26 at 22h 02m 06s.xml">
+      <configuration name="TestHeroLite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestHeroLite_testApplication - 2018.04.26 at 22h 01m 53s.xml">
+      <configuration name="TestHeroLite.testApplication" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="404" y="22" width="857" height="812" extended-state="0" />
+    <frame x="263" y="22" width="1006" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -459,13 +450,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Style Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2184049" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1846473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -530,14 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GuitarHeroLite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BoundedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -577,31 +560,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestGuitarString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GuitarHeroLite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GuitarString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="222">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
           <folding>
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestHeroLite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestGuitarString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
