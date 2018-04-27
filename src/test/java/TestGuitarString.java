@@ -29,4 +29,21 @@ public class TestGuitarString {
 
     }
 
+    @Test
+    public void testTicImplementation() {
+        GuitarString gs = new GuitarString(11025);
+        // initialize
+        // capacity of array buffer: 4
+        gs.pluck();
+
+        double s1 = gs.sample();
+        gs.tic();
+        double s2 = gs.sample();
+        gs.tic();
+        gs.tic();
+        gs.tic();
+
+        assertEquals((s2 + s1) / 2.0 * 0.996, gs.sample(), 0.05);
+    }
+
 } 

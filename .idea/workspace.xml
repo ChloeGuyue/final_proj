@@ -30,8 +30,8 @@
       <file leaf-file-name="TestGuitarString.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestGuitarString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="301">
+              <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,27 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestGuitarString.testTic">
-    <configuration name="TestArrayRingBuffer.testIter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="final_proj" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestArrayRingBuffer" />
-      <option name="METHOD_NAME" value="testIter" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestGuitarString.testTicImplementation">
     <configuration name="TestGuitarString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="final_proj" />
@@ -278,6 +258,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestGuitarString" />
       <option name="METHOD_NAME" value="testTic" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestGuitarString.testTicImplementation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="final_proj" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGuitarString" />
+      <option name="METHOD_NAME" value="testTicImplementation" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -373,18 +373,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestGuitarString" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestArrayRingBuffer.testIter" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testPluck" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testPic" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testTic" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testPluck" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testPic" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testTic" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testTicImplementation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testTic" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testPic" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testPluck" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestGuitarString" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestArrayRingBuffer.testIter" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testTicImplementation" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testTic" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testPic" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestGuitarString.testPluck" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestGuitarString" />
       </list>
     </recent_temporary>
   </component>
@@ -402,9 +402,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestArrayRingBuffer_testIter - 2018.04.26 at 14h 48m 49s.xml">
-      <configuration name="TestArrayRingBuffer.testIter" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestGuitarString - 2018.04.26 at 14h 59m 44s.xml">
       <configuration name="TestGuitarString" configurationId="JUnit" />
     </history-entry>
@@ -431,6 +428,9 @@
     </history-entry>
     <history-entry file="TestGuitarString_testTic - 2018.04.26 at 21h 27m 47s.xml">
       <configuration name="TestGuitarString.testTic" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGuitarString_testTicImplementation - 2018.04.26 at 21h 30m 05s.xml">
+      <configuration name="TestGuitarString.testTicImplementation" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -578,8 +578,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestGuitarString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="301">
+          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
