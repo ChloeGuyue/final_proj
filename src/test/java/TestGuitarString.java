@@ -19,4 +19,14 @@ public class TestGuitarString {
         gs.pluck();
     }
 
+    @Test
+    public void testTic() {
+        GuitarString gs = new GuitarString(11025);
+        // initialize
+        // capacity of array buffer: 4
+        gs.pluck();
+        gs.tic();
+
+    }
+
 } 
